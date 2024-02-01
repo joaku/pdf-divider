@@ -1,0 +1,22 @@
+{
+  "name": "pdf-divider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "pkg . --targets node14-win-x64,node14-macos-x64 --out-path build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "pdf-lib": "^1.17.1",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
